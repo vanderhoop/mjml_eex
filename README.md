@@ -79,9 +79,6 @@ Checkout my [GitHub Sponsorship page](https://github.com/sponsors/akoutmos) if y
 
 ### Basic Usage
 
-Add `{:mjml_eex, "~> 0.7.0"}` to your `mix.exs` file and run `mix deps.get`. After you have that in place, you
-can go ahead and create a template module like so:
-
 ```elixir
 defmodule BasicTemplate do
   use MjmlEEx, mjml_template: "basic_template.mjml.eex"
